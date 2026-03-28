@@ -389,7 +389,7 @@ const Index = () => {
               {
                 title: "Round-the-Clock Availability",
                 desc: "Dental emergencies don't wait — and neither do we. Our 24/7 clinic means you always have access to expert care, whether it's a routine cleaning or an urgent situation at 3am.",
-                image: galleryProcedure,
+                image: galleryWhitening3,
                 points: ["Walk-ins welcome anytime", "Emergency line always active", "Same-day appointments available"],
               },
               {
