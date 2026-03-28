@@ -607,8 +607,8 @@ const Index = () => {
             <motion.div {...fadeUp} transition={{ delay: 0.15 }}>
               <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
                 <img
-                  src={clinicExterior}
-                  alt="Bridge Dental Clinic building"
+                  src={galleryReception}
+                  alt="Bridge Dental Clinic reception"
                   className="w-full aspect-[4/3] object-cover"
                   loading="lazy"
                 />
