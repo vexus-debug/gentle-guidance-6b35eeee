@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Award, Clock, Users, Heart, MapPin, CreditCard, Accessibility } from "lucide-react";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
-import dentistPortrait from "@/assets/dentist-portrait.jpg";
-import clinicExterior from "@/assets/clinic-exterior.jpg";
+import galleryTreatmentRoom from "@/assets/gallery-treatment-room.jpg";
+import galleryReception from "@/assets/gallery-reception.jpg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },
