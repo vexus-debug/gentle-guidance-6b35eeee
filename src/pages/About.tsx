@@ -36,7 +36,7 @@ const About = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div {...fadeUp}>
-              <img src={clinicExterior} alt="Bridge Dental Clinic" className="rounded-2xl shadow-xl w-full object-cover aspect-video" loading="lazy" />
+              <img src={galleryReception} alt="Bridge Dental Clinic" className="rounded-2xl shadow-xl w-full object-cover aspect-video" loading="lazy" />
             </motion.div>
             <motion.div {...fadeUp} transition={{ duration: 0.6, delay: 0.2 }}>
               <SectionHeading subtitle="Our Story" title="A Legacy of Trusted Dental Care" center={false} />
