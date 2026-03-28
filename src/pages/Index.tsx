@@ -18,8 +18,8 @@ import galleryBracesPink from "@/assets/gallery-braces-pink.jpg";
 import galleryScaling from "@/assets/gallery-scaling-before-after.jpg";
 import galleryCleaning from "@/assets/gallery-cleaning-before-after.webp";
 import galleryWhitening2 from "@/assets/gallery-whitening-2.webp";
-import galleryProcedure from "@/assets/gallery-procedure.jpg";
-import clinicExterior from "@/assets/clinic-exterior.jpg";
+import galleryBracesMetal from "@/assets/gallery-braces-metal.jpg";
+import galleryWhitening3 from "@/assets/gallery-whitening-3.webp";
 
 const fadeUp = {
   initial: { opacity: 0, y: 40 },
