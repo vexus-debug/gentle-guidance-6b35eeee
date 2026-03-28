@@ -38,7 +38,7 @@ const services = [
   { icon: Shield, title: "General & Preventive", desc: "Check-ups, cleanings, sealants, and fluoride treatments.", image: galleryCleaning },
   { icon: Sparkles, title: "Cosmetic Dentistry", desc: "Whitening, veneers, bonding, and smile makeovers.", image: galleryWhitening1 },
   { icon: Heart, title: "Restorative Care", desc: "Crowns, bridges, dentures, and tooth-colored fillings.", image: galleryScaling },
-  { icon: Stethoscope, title: "Surgical & Specialist", desc: "Extractions, root canals, implants, and gum treatment.", image: galleryProcedure },
+  { icon: Stethoscope, title: "Surgical & Specialist", desc: "Extractions, root canals, implants, and gum treatment.", image: galleryBracesMetal },
   { icon: Baby, title: "Pediatric Dentistry", desc: "Gentle, child-friendly care and preventive treatments.", image: galleryBracesPink },
   { icon: AlertCircle, title: "Emergency Care", desc: "24-hour services for toothaches, fractures, and more.", image: galleryTreatmentRoom },
 ];
