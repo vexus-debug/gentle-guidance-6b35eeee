@@ -18,8 +18,8 @@ import galleryBracesPink from "@/assets/gallery-braces-pink.jpg";
 import galleryScaling from "@/assets/gallery-scaling-before-after.jpg";
 import galleryCleaning from "@/assets/gallery-cleaning-before-after.webp";
 import galleryWhitening2 from "@/assets/gallery-whitening-2.webp";
-import galleryProcedure from "@/assets/gallery-procedure.jpg";
-import clinicExterior from "@/assets/clinic-exterior.jpg";
+import galleryBracesMetal from "@/assets/gallery-braces-metal.jpg";
+import galleryWhitening3 from "@/assets/gallery-whitening-3.webp";
 
 const fadeUp = {
   initial: { opacity: 0, y: 40 },
@@ -38,7 +38,7 @@ const services = [
   { icon: Shield, title: "General & Preventive", desc: "Check-ups, cleanings, sealants, and fluoride treatments.", image: galleryCleaning },
   { icon: Sparkles, title: "Cosmetic Dentistry", desc: "Whitening, veneers, bonding, and smile makeovers.", image: galleryWhitening1 },
   { icon: Heart, title: "Restorative Care", desc: "Crowns, bridges, dentures, and tooth-colored fillings.", image: galleryScaling },
-  { icon: Stethoscope, title: "Surgical & Specialist", desc: "Extractions, root canals, implants, and gum treatment.", image: galleryProcedure },
+  { icon: Stethoscope, title: "Surgical & Specialist", desc: "Extractions, root canals, implants, and gum treatment.", image: galleryBracesMetal },
   { icon: Baby, title: "Pediatric Dentistry", desc: "Gentle, child-friendly care and preventive treatments.", image: galleryBracesPink },
   { icon: AlertCircle, title: "Emergency Care", desc: "24-hour services for toothaches, fractures, and more.", image: galleryTreatmentRoom },
 ];
@@ -205,8 +205,8 @@ const Index = () => {
             <motion.div {...fadeUp} className="lg:col-span-5 relative">
               <div className="relative">
                 <img
-                  src={clinicExterior}
-                  alt="Bridge Dental Clinic exterior"
+                  src={galleryTreatmentRoom}
+                  alt="Bridge Dental Clinic treatment room"
                   className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/5]"
                   loading="lazy"
                 />
@@ -389,7 +389,7 @@ const Index = () => {
               {
                 title: "Round-the-Clock Availability",
                 desc: "Dental emergencies don't wait — and neither do we. Our 24/7 clinic means you always have access to expert care, whether it's a routine cleaning or an urgent situation at 3am.",
-                image: galleryProcedure,
+                image: galleryWhitening3,
                 points: ["Walk-ins welcome anytime", "Emergency line always active", "Same-day appointments available"],
               },
               {
@@ -478,7 +478,7 @@ const Index = () => {
               { src: galleryWhitening1, label: "Teeth Whitening" },
               { src: galleryWhitening2, label: "Whitening Results" },
               { src: galleryBracesPink, label: "Orthodontic Braces" },
-              { src: galleryProcedure, label: "Precision Care" },
+              { src: galleryBracesMetal, label: "Precision Care" },
             ].map((item, i) => (
               <motion.div
                 key={item.label}
@@ -607,8 +607,8 @@ const Index = () => {
             <motion.div {...fadeUp} transition={{ delay: 0.15 }}>
               <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
                 <img
-                  src={clinicExterior}
-                  alt="Bridge Dental Clinic building"
+                  src={galleryReception}
+                  alt="Bridge Dental Clinic reception"
                   className="w-full aspect-[4/3] object-cover"
                   loading="lazy"
                 />
