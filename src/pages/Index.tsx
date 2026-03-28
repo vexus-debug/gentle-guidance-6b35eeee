@@ -478,7 +478,7 @@ const Index = () => {
               { src: galleryWhitening1, label: "Teeth Whitening" },
               { src: galleryWhitening2, label: "Whitening Results" },
               { src: galleryBracesPink, label: "Orthodontic Braces" },
-              { src: galleryProcedure, label: "Precision Care" },
+              { src: galleryBracesMetal, label: "Precision Care" },
             ].map((item, i) => (
               <motion.div
                 key={item.label}
