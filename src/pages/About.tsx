@@ -484,6 +484,48 @@ const About = () => {
         </div>
       </section>
 
+      {/* ══════ ACCEPTED HMOs ══════ */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 lg:px-8">
+          <motion.div {...fadeUp} className="text-center mb-16">
+            <span className="text-sm font-semibold tracking-widest uppercase text-primary">Insurance Partners</span>
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mt-2 text-foreground">
+              Accepted <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">HMO Plans</span>
+            </h2>
+            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+              We work with top health maintenance organizations across Nigeria to ensure you can access quality dental care through your health plan.
+            </p>
+          </motion.div>
+
+          <motion.div {...staggerContainer} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            {[
+              "Leadway HMO",
+              "Reliance HMO",
+              "Novoh Health HMO",
+              "Avon HMO",
+              "Bastion HMO",
+              "Sterling HMO",
+              "Regenix HMO",
+              "Synergy HMO",
+              "Life Action HMO",
+              "Serene HMO",
+              "Wellness HMO",
+            ].map((hmo) => (
+              <motion.div
+                key={hmo}
+                variants={staggerItem}
+                className="group bg-card rounded-xl p-5 border border-border text-center hover:shadow-premium hover:border-primary/20 transition-all duration-500"
+              >
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                  <Shield className="w-5 h-5 text-primary" />
+                </div>
+                <span className="text-sm font-semibold text-foreground">{hmo}</span>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
       {/* ══════ PATIENT PROMISE ══════ */}
       <section className="py-20 lg:py-28 relative overflow-hidden">
         <div className="container mx-auto px-4 lg:px-8">

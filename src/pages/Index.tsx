@@ -770,6 +770,59 @@ const Index = () => {
       </section>
 
       {/* ═════════════════════════════════════════════════════
+          ACCEPTED HMOs — Trusted insurance partners
+      ═════════════════════════════════════════════════════ */}
+      <section className="py-24 lg:py-36 bg-section-alt relative overflow-hidden texture-dots">
+        <div className="container mx-auto px-4 lg:px-8 relative z-10">
+          <motion.div {...fadeUp} className="text-center max-w-3xl mx-auto mb-16">
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <div className="h-px w-16 bg-gradient-to-r from-transparent to-primary/40" />
+              <span className="text-xs font-bold tracking-[0.3em] uppercase text-primary">
+                Insurance Partners
+              </span>
+              <div className="h-px w-16 bg-gradient-to-l from-transparent to-primary/40" />
+            </div>
+            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-5 leading-[1.1]">
+              Accepted <span className="text-primary">HMO Plans</span>
+            </h2>
+            <p className="text-muted-foreground text-base lg:text-lg max-w-xl mx-auto">
+              We partner with leading health maintenance organizations to make quality dental care accessible and affordable.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            {[
+              "Leadway HMO",
+              "Reliance HMO",
+              "Novoh Health HMO",
+              "Avon HMO",
+              "Bastion HMO",
+              "Sterling HMO",
+              "Regenix HMO",
+              "Synergy HMO",
+              "Life Action HMO",
+              "Serene HMO",
+              "Wellness HMO",
+            ].map((hmo, i) => (
+              <motion.div
+                key={hmo}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.05 }}
+                className="group bg-card rounded-xl p-5 border border-border text-center hover:shadow-premium hover:border-primary/20 transition-all duration-500"
+              >
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                  <Shield className="w-5 h-5 text-primary" />
+                </div>
+                <span className="text-sm font-semibold text-foreground">{hmo}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═════════════════════════════════════════════════════
           TESTIMONIALS — Premium dark section with depth
       ═════════════════════════════════════════════════════ */}
       <section className="py-24 lg:py-40 bg-section-dark relative overflow-hidden texture-noise">
