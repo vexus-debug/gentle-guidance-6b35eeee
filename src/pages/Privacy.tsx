@@ -22,7 +22,7 @@ const Privacy = () => {
           <p className="text-muted-foreground leading-relaxed">We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. Your medical records are kept strictly confidential in accordance with Nigerian healthcare regulations and the Nigeria Data Protection Regulation (NDPR).</p>
 
           <h2 className="font-heading text-2xl font-bold text-foreground mt-8">4. Patient Rights</h2>
-          <p className="text-muted-foreground leading-relaxed">You have the right to access, correct, or request deletion of your personal data. You may also withdraw consent for data processing at any time. To exercise these rights, please contact us at info@bridgedentalclinic.ng or call +234 816 009 0708.</p>
+          <p className="text-muted-foreground leading-relaxed">You have the right to access, correct, or request deletion of your personal data. You may also withdraw consent for data processing at any time. To exercise these rights, please contact us at bridgedentalclinic1@gmail.com or call +234 816 009 0708.</p>
 
           <h2 className="font-heading text-2xl font-bold text-foreground mt-8">5. Cookies</h2>
           <p className="text-muted-foreground leading-relaxed">Our website uses cookies to enhance your browsing experience and analyze website traffic. You can control cookie preferences through your browser settings. Essential cookies required for website functionality cannot be disabled.</p>
@@ -35,7 +35,7 @@ const Privacy = () => {
           Bridge Dental Clinic<br />
           39 Airport Road, Effurun 332011, Delta State, Nigeria<br />
           Phone: +234 816 009 0708<br />
-          Email: info@bridgedentalclinic.ng</p>
+          Email: bridgedentalclinic1@gmail.com</p>
         </div>
       </section>
     </Layout>
