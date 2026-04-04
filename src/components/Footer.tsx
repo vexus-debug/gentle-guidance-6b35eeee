@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
-                <span className="opacity-80">info@bridgedentalclinic.ng</span>
+                <span className="opacity-80">bridgedentalclinic1@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Clock className="h-4 w-4 shrink-0 text-primary" />

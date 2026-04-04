@@ -38,7 +38,7 @@ const Terms = () => {
           Bridge Dental Clinic<br />
           39 Airport Road, Effurun 332011, Delta State, Nigeria<br />
           Phone: +234 816 009 0708<br />
-          Email: info@bridgedentalclinic.ng</p>
+          Email: bridgedentalclinic1@gmail.com</p>
         </div>
       </section>
     </Layout>
