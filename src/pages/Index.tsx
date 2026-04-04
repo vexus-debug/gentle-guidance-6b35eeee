@@ -724,7 +724,8 @@ const Index = () => {
               { src: galleryWhitening1, label: "Teeth Whitening", span: "" },
               { src: galleryWhitening2, label: "Whitening Results", span: "" },
               { src: galleryBracesPink, label: "Orthodontic Braces", span: "" },
-              { src: galleryBracesMetal, label: "Precision Care", span: "col-span-2" },
+              { src: galleryBracesMetal, label: "Precision Care", span: "" },
+              { src: alignersCloseup, label: "Clear Aligners", span: "col-span-2" },
             ].map((item, i) => (
               <motion.div
                 key={item.label}
