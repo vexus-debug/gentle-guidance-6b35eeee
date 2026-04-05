@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, CreditCard, MessageSquare } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, CreditCard, MessageSquare, Instagram, Facebook, MapPinned } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
