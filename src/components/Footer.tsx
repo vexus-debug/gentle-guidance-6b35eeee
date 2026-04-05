@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram, Facebook, MapPinned } from "lucide-react";
 import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
@@ -74,7 +74,10 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Phone className="h-4 w-4 shrink-0 text-primary" />
-                <a href="tel:+2348160090708" className="opacity-80 hover:opacity-100">+234 816 009 0708</a>
+                <div className="opacity-80">
+                  <a href="tel:+2348160090708" className="hover:opacity-100 block">+234 816 009 0708</a>
+                  <a href="tel:+2349073745258" className="hover:opacity-100 block">+234 907 374 5258</a>
+                </div>
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
@@ -85,6 +88,22 @@ const Footer = () => {
                 <span className="opacity-80">Open 24 Hours, Every Day</span>
               </li>
             </ul>
+
+            {/* Social Links */}
+            <div className="mt-6">
+              <h4 className="font-heading text-sm font-semibold mb-3">Follow Us</h4>
+              <div className="flex items-center gap-3">
+                <a href="https://instagram.com/warri_dentist" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-primary/20 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity" aria-label="Instagram">
+                  <Instagram className="h-4 w-4" />
+                </a>
+                <a href="https://facebook.com/BridgeDentalClinic" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-primary/20 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity" aria-label="Facebook">
+                  <Facebook className="h-4 w-4" />
+                </a>
+                <a href="https://maps.google.com/?q=Bridge+Dental+Clinic+Warri" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-primary/20 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity" aria-label="Google My Business">
+                  <MapPinned className="h-4 w-4" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

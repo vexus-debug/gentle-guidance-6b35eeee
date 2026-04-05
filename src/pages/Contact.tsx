@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, CreditCard, MessageSquare } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, CreditCard, MessageSquare, Instagram, Facebook, MapPinned } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -45,7 +45,7 @@ const Contact = () => {
               <div className="space-y-6">
                 {[
                   { icon: MapPin, label: "Visit Us", value: "39 Airport Road, opposite Tivo Supermarket, Warri, Effurun 332011, Delta State, Nigeria" },
-                  { icon: Phone, label: "Call Us", value: "+234 816 009 0708", href: "tel:+2348160090708" },
+                  { icon: Phone, label: "Call Us", value: "+234 816 009 0708 / +234 907 374 5258", href: "tel:+2348160090708" },
                   { icon: Mail, label: "Email Us", value: "bridgedentalclinic1@gmail.com" },
                   { icon: Clock, label: "Opening Hours", value: "Open 24 Hours — Every day of the week" },
                   { icon: CreditCard, label: "Payment Methods", value: "Credit Cards, Debit Cards, NFC Mobile Payments (Apple Pay, Google Pay), Payment Plans" },
@@ -66,6 +66,21 @@ const Contact = () => {
                 ))}
               </div>
 
+              {/* Social Links */}
+              <div className="mt-8">
+                <h4 className="text-sm font-semibold text-foreground mb-3">Follow Us</h4>
+                <div className="flex items-center gap-3">
+                  <a href="https://instagram.com/warri_dentist" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary hover:bg-primary/20 transition-colors" aria-label="Instagram">
+                    <Instagram className="h-5 w-5" />
+                  </a>
+                  <a href="https://facebook.com/BridgeDentalClinic" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary hover:bg-primary/20 transition-colors" aria-label="Facebook">
+                    <Facebook className="h-5 w-5" />
+                  </a>
+                  <a href="https://maps.google.com/?q=Bridge+Dental+Clinic+Warri" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary hover:bg-primary/20 transition-colors" aria-label="Google My Business">
+                    <MapPinned className="h-5 w-5" />
+                  </a>
+                </div>
+              </div>
               {/* Map */}
               <div className="mt-10 rounded-xl overflow-hidden border border-border">
                 <iframe
